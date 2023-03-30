@@ -3,10 +3,10 @@ const mongoose = require('mongoose');
 const temperatureSchema = mongoose.Schema({
     Type: String,
     Date: String,
-    Value: Number,
+    Temp: Number,
 })
 
-const temperatureModel = mongoose.model('tempadd', temperatureSchema);
+const temperatureModel = mongoose.model('temperatures', temperatureSchema);
 
 module.exports = temperatureModel;
 

@@ -1,4 +1,3 @@
-
 const mongoose = require('mongoose');
 
 const connection = "mongodb+srv://mentsuyu:d1t1try@cluster0.x6uu2.mongodb.net/hackhaton?retryWrites=true&w=majority";
